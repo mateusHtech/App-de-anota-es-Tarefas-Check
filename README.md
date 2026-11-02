@@ -1,53 +1,64 @@
 # Tarefas Check 📋
 
-Aplicativo Android desenvolvido em Kotlin para criação, visualização e organização de tarefas e anotações.
+## Informações do aluno
 
-## 📱 Sobre o projeto
+**Nome:** Mateus Henrique  
+**Matrícula:** 8370
+**Data de entrega:** 02/11/2026
 
-O **Tarefas Check** é um aplicativo de gerenciamento de tarefas desenvolvido como projeto final da disciplina de Desenvolvimento Android Intermediário.
+## Nome do aplicativo
 
-A proposta é permitir que o usuário crie, visualize, edite, conclua e exclua tarefas de forma simples, utilizando uma interface baseada em cartões.
+**Tarefas Check**
 
-O projeto também foi desenvolvido como forma de praticar conceitos de desenvolvimento Android com Kotlin, Jetpack Compose, persistência local de dados e arquitetura organizada.
+## Justificativa da escolha do tema
 
-## 🚀 Funcionalidades
+O tema foi escolhido com o objetivo de desenvolver um aplicativo simples e útil para organização de tarefas e anotações do dia a dia.
 
-Atualmente, o aplicativo possui:
+A proposta surgiu da necessidade de reunir, em um único aplicativo, tarefas que precisam ser realizadas, permitindo que o usuário registre informações, acompanhe o que já foi concluído e organize suas atividades de maneira visual.
 
-- Criar novas tarefas
-- Definir título e detalhes
-- Escolher uma cor para a tarefa
-- Visualizar tarefas na tela principal
-- Marcar tarefas como concluídas
-- Filtrar tarefas
-- Editar tarefas
-- Excluir tarefas individualmente
-- Excluir todas as tarefas
-- Visualizar detalhes de uma tarefa
-- Menu de opções do aplicativo
-- Tela de configurações
-- Tela de ajuda
-- Tela sobre o aplicativo
-- Seleção de tema claro
-- Seleção de tema escuro
-- Modo automático baseado no sistema
-- Persistência da preferência de tema
-- Persistência local das tarefas
+Além da utilidade prática, o tema também possibilitou aplicar diferentes conceitos estudados durante a disciplina de Desenvolvimento Android, como criação de interfaces, navegação entre telas, gerenciamento de estados e armazenamento local de dados.
 
-## 🛠️ Tecnologias utilizadas
+## Descrição do funcionamento
 
-- **Kotlin**
-- **Jetpack Compose**
-- **Material 3**
-- **Navigation Compose**
-- **Room**
-- **ViewModel**
-- **Repository**
-- **Flow**
-- **SharedPreferences**
-- **Gradle Kotlin DSL**
-- **Git**
-- **GitHub**
+O **Tarefas Check** é um aplicativo Android desenvolvido em Kotlin que permite ao usuário criar e organizar tarefas.
+
+Na tela principal, o usuário pode visualizar suas tarefas cadastradas e identificar quais já foram concluídas. As tarefas podem possuir título, detalhes e uma cor, facilitando sua identificação visual.
+
+O aplicativo permite:
+
+- Criar novas tarefas;
+- Adicionar título e detalhes;
+- Escolher uma cor para cada tarefa;
+- Visualizar os detalhes de uma tarefa;
+- Editar tarefas existentes;
+- Marcar tarefas como concluídas;
+- Filtrar tarefas;
+- Excluir tarefas individualmente;
+- Excluir todas as tarefas;
+- Navegar entre diferentes telas do aplicativo;
+- Alterar o modo de aparência entre claro, escuro e automático.
+
+As tarefas são armazenadas localmente no dispositivo utilizando **Room**, permitindo que os dados sejam mantidos mesmo após o fechamento do aplicativo.
+
+O aplicativo também possui telas de configurações, ajuda e informações sobre o projeto.
+
+## Tecnologias utilizadas
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Navigation Compose
+- Room
+- ViewModel
+- Repository
+- Git e GitHub
+
+## Observações
+
+O projeto foi desenvolvido como atividade da disciplina de **Desenvolvimento Android Intermediário**, com o objetivo de aplicar na prática os conceitos estudados durante o curso.
+
+O código-fonte completo do aplicativo está disponível neste repositório.
+
 
 ## 🏗️ Arquitetura
 
@@ -242,11 +253,6 @@ Branch principal:
 main
 ```
 
-## 🎯 Objetivo acadêmico
-
-Além de entregar o aplicativo proposto, o projeto tem como objetivo consolidar conhecimentos de desenvolvimento Android utilizando Kotlin e tecnologias modernas do ecossistema Android.
-
-O código também está sendo utilizado como material de estudo para compreender, na prática, como diferentes componentes de um aplicativo Android se relacionam.
 
 ## 📌 Status do projeto
 
